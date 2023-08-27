@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nes-btn {
+    margin: 10px !important;
+}
+
+.nes-avatar {
+    margin: 5px;
+}
+
+.nes-icon {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+html, body, pre, code, kbd, samp  {
+    font-family: "Press Start 2P", sans-serif;
+}

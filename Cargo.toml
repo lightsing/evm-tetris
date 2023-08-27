@@ -1,0 +1,21 @@
+[package]
+name = "evm-tetris"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+hex = "0.4"
+getrandom = { version = "0.2", features = ["js"] }
+primitive-types = { version = "0.12", default-features = false }
+once_cell = "1"
+rand = { version = "0.8", default-features = false, features = ["alloc", "getrandom", "small_rng"] }
+smallvec = "1.11"
+strum = { version = "0.25", features = ["derive"] }
+yew = { version = "0.20", features = ["csr"] }
+nes-yew = "0.0.1"
+
+[profile.release]
+panic = 'abort'
+codegen-units = 1
+opt-level = 'z'
+lto = true

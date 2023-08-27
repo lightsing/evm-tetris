@@ -1,0 +1,24 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  '@fontsource/press-start-2p':
+    specifier: ^5.0.9
+    version: 5.0.9
+  nes.css:
+    specifier: ^2.3.0
+    version: 2.3.0
+
+packages:
+
+  /@fontsource/press-start-2p@5.0.9:
+    resolution: {integrity: sha512-vQCa80ArVprk8LTGINN2LY57iYI5gGRoEoOUeE/QhsUqOU0XFDINSnA+x+29cyfeRcSyNW5ZsfVsRLUOm4xLEg==}
+    dev: false
+
+  /nes.css@2.3.0:
+    resolution: {integrity: sha512-lCFZs9vj3f5RVdbvTL/kSxiYsOARwSeAdJaMNo+bCgmWOO9x8ay7QpT4yQVKHy3r5Dttzd0uqVdpt3fvvx6EpQ==}
+    engines: {node: 10.x}
+    dev: false
